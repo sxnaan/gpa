@@ -24,7 +24,7 @@ def main():
     for i in range(num_classes):
         print("class " + str(i+1) + ":")
         class_credits = int(input("how many credits? "))
-        letter_grade = str(input("grade received/expected? ")).lower()
+        letter_grade = input("grade received/expected? ").lower()
 
         # update cumulative gpa
         total_credits += class_credits
@@ -42,3 +42,4 @@ def main():
     print("YOUR NEW GPA IS " + str(gpa) + "\n")
 
 main()
+
