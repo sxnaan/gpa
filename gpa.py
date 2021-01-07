@@ -8,6 +8,7 @@ def main():
         "f": 0
     }
 
+    
     gpa = float(input("current gpa? "))
     total_credits = int(input("credits total atm? (excluding ap)? ")) 
     q_points = gpa * total_credits 
